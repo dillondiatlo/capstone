@@ -1,2 +1,8 @@
 #data folder
 data/
+
+#api-key
+secretstuff.py
+
+#scratch
+scratch/
