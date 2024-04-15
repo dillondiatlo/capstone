@@ -1,10 +1,9 @@
 pandas
 numpy
-matplotlib.pyplot
+matplotlib
 seaborn
 datetime
 pickle
 requests
 random
-streamlit_extras.customize_running
 
