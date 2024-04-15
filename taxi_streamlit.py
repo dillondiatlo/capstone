@@ -7,7 +7,6 @@ import datetime
 import pickle
 import requests, json
 import random
-from secretstuff import api_key
 
 #-------SETTINGS------#
 #[theme]
@@ -101,7 +100,7 @@ BASE_URL = "https://api.openweathermap.org/data/2.5/weather?"
 # City Name CITY = "Hyderabad"
 CITY = "New York City"
 # API key
-API_KEY = api_key
+API_KEY = st.secrets["api_key"]
 # upadting the URL
 URL = BASE_URL + "q=" + CITY + "&appid=" + API_KEY
 # HTTP request
