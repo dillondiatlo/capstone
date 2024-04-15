@@ -139,7 +139,7 @@ day_of_month = today.day
 
 # ------ Getting Ideal Trip Length ------ #
 miles = random.randint(5, 10)
-duration = random.randint(15, 25)
+duration = random.randint(5, 15)
 
 
 
