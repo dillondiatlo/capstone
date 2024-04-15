@@ -2,8 +2,5 @@ pandas
 numpy
 matplotlib
 seaborn
-datetime
-pickle
-requests
-random
+scikit-learn
 
