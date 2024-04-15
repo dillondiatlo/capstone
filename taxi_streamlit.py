@@ -20,7 +20,7 @@ textColor="#fefaf3"
 #Opening borough lists of taxi zones
 with open('./Boroughs_List.pkl', 'rb') as f:
     Bronx, Manhattan, Brooklyn, Queens, Staten_Island = pickle.load(f)
-    
+
 #Opening model
 with open ('./final_model.pkl', 'rb') as a:
     model = pickle.load(a)
