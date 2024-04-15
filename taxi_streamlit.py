@@ -7,7 +7,6 @@ import datetime
 import pickle
 import requests, json
 import random
-from streamlit_extras.customize_running import center_running
 from secretstuff import api_key
 
 #-------SETTINGS------#
