@@ -31,7 +31,7 @@ st.image('fareforcaster.png')
 #-------TITLES------#
 #Page Title & Subtitle
 st.title(":oncoming_taxi: :rainbow[Welcome to Fare Forecaster!] :oncoming_taxi:") 
-st.subheader("""Make your selections on the left and we'll do the rest""")
+st.subheader("""Open the sidebar on the left. Make your selections. We'll do the rest. :face_with_cowboy_hat:""")
 
 
 
