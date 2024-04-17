@@ -157,3 +157,7 @@ Overall, the findings reinforce the importance of location and time in determini
 2. <ins>TIMESPAN</ins> - The for-hire vehicle data was limited to a single year (2022). Improved metrics, as well as deeper and more confident insights can be found through multiple years of data.
 
 3. <ins>GEO-GRANULARITY</ins> - While currently specified by one of 265 NYC taxi zones, more granular geo-location data can create more specific recomendations within taxi zones, possibly down to requests by block.
+
+4. <ins>BIASIS</ins> - Initially not biases, downsizing and sampling ultimate left the data a bit skewed towards certain days and months. In the future, one can try different ways of parameter tuning, sampling and downsizing to get the least bias results.
+
+5. <ins>DEMAND</ins> - Currently, this model does not take into consideration taxi zone based on demand. To optimize in real-time, one can take into account demand data by tazi zone and time.
