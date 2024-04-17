@@ -92,6 +92,8 @@ The methodology involves several steps:
     - Models tested:
         - GradientBoost (winner)
         - RandomForest
+        - LassoCV
+        - RidgeRegression
         - LinearRegression
         - XGBoost 
     
